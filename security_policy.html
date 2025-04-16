@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Policy</title>
+    <link rel="stylesheet" href="legal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ 
+</head>
+<body class="policy-page">
+    <div class="container">
+        <h2>Security Policy</h2>
+        <button class="accordion">Data Protection <i class="fas fa-chevron-down"></i></button>
+        <div class="panel">
+            <p>We ensure your data is encrypted and stored securely to prevent unauthorized access.</p>
+        </div>
+
+        <button class="accordion">User Authentication <i class="fas fa-chevron-down"></i></button>
+        <div class="panel">
+            <p>We implement multi-factor authentication (MFA) to enhance account security.</p>
+        </div>
+
+        <button class="accordion">Network Security <i class="fas fa-chevron-down"></i></button>
+        <div class="panel">
+            <p>Our servers are protected with advanced firewalls and intrusion detection systems.</p>
+        </div>
+
+        <button class="accordion">Privacy Measures <i class="fas fa-chevron-down"></i></button>
+        <div class="panel">
+            <p>We do not share your personal data with third parties without your consent.</p>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
