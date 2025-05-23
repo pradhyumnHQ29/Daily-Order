@@ -1,0 +1,68 @@
+body {
+    background: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-results-container {
+    display: inline;
+    height: 20px;
+   
+}
+
+.food-item {
+background: #1c1c1c;
+border: 2px solid #FFD700;
+border-radius: 2px;
+padding: 30px;
+box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+margin-top: 5%;        /* Food items ke beech gap */
+
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.order-now {
+    display: inline-block;
+    background: #FFD700;
+    color: #121212;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.order-now:hover {
+    background: #e6c300;
+    transform: scale(1.1);
+}
+/* Mobile (max width 600px) */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  }
+  
