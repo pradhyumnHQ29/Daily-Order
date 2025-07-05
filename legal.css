@@ -1,0 +1,160 @@
+/* General Page Styling */
+body, .privacy-page, .policy-page, .service-page {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fb; /* Soft off-white background for a clean feel */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+
+h2 {
+  color: #2980b9; /* A soft blue for headings */
+  margin-top: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  color: #34495e; /* Slightly lighter dark color for better readability */
+  padding: 10px 0;
+}
+
+strong {
+  color: #e74c3c; /* Red for emphasis */
+}
+
+.highlight {
+  background-color: #f39c12; /* Soft yellow for highlighting */
+  padding: 2px 8px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Header & Footer */
+header, footer {
+  background: #2c3e50; /* Dark blue background */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Containers */
+.container, .privacy-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover, .privacy-container:hover {
+  transform: translateY(-10px);
+}
+
+.privacy-container {
+  margin: 40px auto;
+  border-radius: 12px;
+  background: #ecf0f1; /* Light grey-blue for contrast */
+}
+
+.policy-page, .service-page {
+  font-family: Arial, sans-serif;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey */
+  color: #333;
+  border-radius: 8px;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+ul li:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Accordion Styles */
+.accordion {
+  background: #fff;
+  color: #34495e;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.accordion:hover {
+  background-color: #2980b9; /* Hover color on accordion */
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.accordion i {
+  transition: transform 0.3s;
+}
+
+.accordion.active i {
+  transform: rotate(180deg);
+}
+
+.panel {
+  padding: 0 15px;
+  display: none;
+  background: #f9f9f9;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Footer Bottom Margin */
+footer {
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #1d2730; /* Consistent dark blue */
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}

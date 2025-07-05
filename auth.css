@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    color: #fff;
+  }
+  
+  .login-box {
+    background: #1c1c1c;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+  }
+  
+  .login-box h2 {
+    color: #fff;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gold;
+    background: 0 0;
+    color: gold;
+    border-radius: 5px;
+    outline: 0;
+  }
+  
+  button, input {
+    padding: 12px;
+  }
+  
+  .login-button,
+  .login-text,
+  p {
+    margin-top: 10px;
+  }
+  
+  .login-button {
+    background-color: gold;
+    color: #121212;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .container {
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #343a40;
+  }
+  
+  input {
+    width: 100%;
+    margin: 8px 0;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    outline: 0;
+    color: #495057;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
+  
+  p {
+    color: #6c757d;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  .login-link {
+    text-decoration: none;
+  }
+  
+  .login-link:hover,
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .login-text {
+    color: #fff;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  }
+  
